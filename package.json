@@ -1,0 +1,26 @@
+{
+  "name": "projeto-simaoacessorios",
+  "version": "1.0.0",
+  "description": "Projeto website Simão Acessórios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thimarsola/Projeto_SimaoAcessorios.git"
+  },
+  "author": "Thiago Marsola - Thiago Marsola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thimarsola/Projeto_SimaoAcessorios/issues"
+  },
+  "homepage": "https://github.com/thimarsola/Projeto_SimaoAcessorios#readme",
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  },
+  "dependencies": {
+    "lightbox2": "^2.11.1"
+  }
+}
