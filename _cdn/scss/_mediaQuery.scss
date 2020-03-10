@@ -1,0 +1,52 @@
+//TABLET
+@media screen and (max-width: 768px) {
+
+    //BODY
+    * {
+        font-size: 14px;
+    }
+
+    //NAVBAR
+    .navbar{
+        img{
+            height: 2.5em;
+        }
+        .collapse{
+            margin: 1.5em 0;
+        }
+    }
+
+    //CTA
+    #cta{
+        background-position: 30% center; 
+    }
+
+}
+
+//MOBILE
+@media screen and (max-width: 576px) {
+
+    //CTA
+    #cta{
+        background-position: 20% top; 
+        .main_cta_header{
+            h1{
+                font:{
+                    size: 1.75em;
+                }
+                strong{
+                    font:{
+                        size: 2.125rem;
+                    }
+                }
+            }
+        }
+    }
+
+    #destaque{
+        .main_featured_image{
+            display: none;
+        }
+    }
+
+}

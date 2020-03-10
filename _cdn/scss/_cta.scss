@@ -1,0 +1,99 @@
+#cta{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("../img/bg-header.jpg"); 
+    background-size: cover;
+    background-position: right bottom;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    .main_cta_header{
+        margin: 0 0 1.25em 0;
+        padding: 0;
+        h1{
+            margin: 0;
+            padding: 0;
+            font:{
+                style: normal;
+                size: 2.75em;
+                weight: $font-light;
+            }
+            text:{
+                transform: uppercase;
+                align: justify;
+            }
+            strong{
+                margin: 0;
+                padding: 0;
+                font:{
+                    style: inherit;
+                    size: 3.375rem;
+                    weight: $font-bold;
+                }
+            }
+        }
+    }
+    .main_cta_content{
+        margin: 0;
+        padding: 0;
+        max-width: 30em;
+        p{
+            margin: 0;
+            padding: 0;
+            font:{
+                style: normal;
+                size: 1.125em;
+                weight: $font-light;
+            }
+            text:{
+                align: justify;
+            }
+        }
+        .btn{
+            margin: 3em 0 0 0;
+            padding: .375em 2.75em;
+        }
+    }
+    .main_cta_scroll{
+        position: absolute;
+        bottom: 2em;
+        left: 50%;
+        transform: translateX(-50%);
+        overflow: hidden !important;
+        a {
+            display: block;
+            width: 2em;
+            height: 4.5em;
+            border-radius: 50rem;
+            border: 2px solid $color1;
+            &::after {
+                margin: 0;
+                padding: 0;
+                position: relative;
+                top: 12.5%;
+                left: 50%;
+                display: block;
+                width: .625em;
+                height: .625em;
+                background-color: $color1;
+                border-radius: 50em;
+                transform: translatex(-50%);
+                content: "";
+                animation: scroll 2s infinite;
+            }
+        }
+    }
+}
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+        top: 70%;
+    }
+}
