@@ -29,7 +29,7 @@
         margin: 0;
         padding: 0;
         .main_content_card{
-            margin: 1em 0;
+            /*margin: 1em 0;*/
             padding: 3em 2em;
             min-height: 24em;
             background:{
@@ -41,9 +41,9 @@
             border-radius: .375em;
             &:hover{
                 transform: scale(1.05);
-                -webkit-transition: ease .5s;
-                -moz-transition: ease .5s;
-                transition: ease .5s;
+                -webkit-transition: ease-in .3s;
+                -moz-transition: ease-in .3s;
+                transition: ease-in .3s;
             }
             .main_pillars_content_card_image{
                 display: flex;

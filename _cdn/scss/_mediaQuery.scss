@@ -43,9 +43,28 @@
         }
     }
 
+    //FEATURED
     #destaque{
         .main_featured_image{
             display: none;
+        }
+    }
+
+    //PRODUCT
+    #produtos{
+        .main_product_banner{
+            .main_product_banner_header{
+                h1{
+                    font:{
+                        size: 1.75em;
+                    }
+                    strong{
+                        font:{
+                            size: 2.75rem;
+                        }
+                    }
+                }
+            }
         }
     }
 
