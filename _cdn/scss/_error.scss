@@ -1,0 +1,76 @@
+#home{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .main_error{
+        margin: auto 0;
+        padding: 0;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        .main_error_header{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            h1{
+                margin: 0;
+                padding: 0;
+                font:{
+                    style: normal;
+                    size: 17em;
+                    weight: $font-bold;
+                }
+                text-align: center;
+            }
+            .main_error_header_box{
+                margin: 0 auto;
+                padding: .5em 1em;
+                background:{
+                    color: $color1;
+                }
+                max-width: 30em;
+                p{
+                    margin: 0;
+                    padding: 0;
+                    font:{
+                        style: normal;
+                        size: 2em;
+                        weight: $font-light;
+                    }
+                    text-align: center;
+                    color: $color3;
+                }
+            }
+
+        }
+        .main_error_content{
+            margin: 3em auto 4em auto;
+            padding: 0;
+            max-width: 36em;
+            p{
+                margin: 0;
+                padding: 0;
+                font:{
+                    style: normal;
+                    size: 1.25em;
+                    weight: $font-light;
+                }
+                text-align: center;
+            }
+        }
+        .main_error_content_btn{
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .footer{
+        margin: 0;
+        padding: 0;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
