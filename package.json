@@ -18,7 +18,7 @@
   "homepage": "https://github.com/thimarsola/Projeto_SimaoAcessorios#readme",
   "devDependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "dependencies": {
     "lightbox2": "^2.11.1"
