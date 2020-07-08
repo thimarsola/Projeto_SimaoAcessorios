@@ -36,6 +36,7 @@
                                         $arg_category = [
                                             'posts_per_page' => 9,
                                             'post_type' => 'produtos',
+                                            'orderby' => 'rand',
                                             'paged' => $paged,
                                         ];
                                     ?>

@@ -14,7 +14,9 @@
         </header>
         <!--CONTENT-->
         <div class="main_product_content_product_card_content_body">
-            <p>Referência: <?php the_field('codigo_do_produto') ?></p>
+            <p><strong>Referência:</strong> <?php the_field('codigo_do_produto'); ?></p>
+            <p><strong>Cores disponíveis:</strong> <?php the_field('cor_do_produto'); ?></p>
+
             <a href="<?php the_permalink(); ?>" class="btn btn-color1 btn-block">Solicitar Orçamento</a>
         </div>
     </div>
