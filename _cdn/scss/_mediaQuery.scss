@@ -1,0 +1,98 @@
+//TABLET
+@media screen and (max-width: 768px) {
+
+    //BODY
+    * {
+        font-size: 14px;
+    }
+
+    //NAVBAR
+    .navbar{
+        img{
+            height: 2.5em;
+        }
+        .collapse{
+            margin: 1.5em 0;
+        }
+    }
+
+    //CTA
+    #cta{
+        background-position: 30% center; 
+    }
+
+}
+
+//MOBILE
+@media screen and (max-width: 576px) {
+
+    //CTA
+    #cta{
+        background-position: 20% top; 
+        .main_cta_header{
+            h1{
+                font:{
+                    size: 1.75em;
+                }
+                strong{
+                    font:{
+                        size: 2.125rem;
+                    }
+                }
+            }
+        }
+    }
+
+    //FEATURED
+    #destaque{
+        .container{
+            .row > div{
+                &:nth-child(2){
+                    margin-bottom: 2em;
+                    order: -1;  
+                }
+                .main_featured_content{
+                    .main_featured_content_header{
+                        h1{
+                            font:{
+                                size: 2.5em;
+                            }
+                            text:{
+                                align: center;
+                            }
+                        }
+                        hr{
+                            margin: 1.25em auto 0 auto;
+                        }
+                    }
+                    .main_featured_content_text{
+                        p{
+                            text:{
+                                align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //PRODUCT
+    #produtos{
+        .main_product_banner{
+            .main_product_banner_header{
+                h1{
+                    font:{
+                        size: 1.75em;
+                    }
+                    strong{
+                        font:{
+                            size: 2.75rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

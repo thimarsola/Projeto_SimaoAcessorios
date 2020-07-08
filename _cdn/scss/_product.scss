@@ -1,0 +1,74 @@
+#produtos{
+    margin: 0;
+    padding: 0;
+    .main_product_banner{
+        margin: 0;
+        padding: 5em 0;
+        background:{
+            color: #F8F8F8;
+        }
+        .main_product_banner_header{
+            @extend %title;
+        }
+        .main_product_banner_content{
+            p{
+                margin: 0;
+                padding: 0;
+                font:{
+                    style: normal;
+                    size: 1.375em;
+                    weight: $font-light;
+                }
+            }
+        }
+    }
+    .main_product_content{
+        margin: 0;
+        padding: 5em 0;
+        .main_content_card{
+            margin: 0;
+            padding: 3em 2em;
+            box-shadow: 0 0 10px rgba(#333, .3);
+            -webkit-border-radius: .375em;
+            -moz-border-radius: .375em;
+            border-radius: .375em;
+            &:hover{
+                transform: scale(1.05);
+                -webkit-transition: ease-in .3s;
+                -moz-transition: ease-in .3s;
+                transition: ease-in .3s;
+            }
+            .main_content_card_image{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .main_content_card_content{
+                .main_content_card_content_header{
+                    margin: 1em 0 1.75em 0;
+                    padding: 0;
+                    h2{
+                        margin: 0;
+                        padding: 0;
+                        font:{
+                            style: normal;
+                            size: 1.5em;
+                            weight: $font-bold;
+                        }
+                        text:{
+                            align: center
+                        }
+                    }
+                    hr{
+                        margin: 1.125em auto 0 auto; 
+                        padding: 0;
+                        width: 5em;
+                        border: 2px solid $color1;
+                    }
+                }
+            }
+        }
+    }
+}

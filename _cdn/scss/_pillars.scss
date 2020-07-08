@@ -1,0 +1,99 @@
+#pilares{
+    margin: 0;
+    padding: 5em 0;
+    .main_pillars_header{
+        margin: 0 0 3em 0;
+        padding: 0;
+        h1{
+            margin: 0;
+            padding: 0;
+            font:{
+                style: normal;
+                size: 2.625em;
+                weight: $font-bold;
+            }
+            color: #color2;
+            text:{
+                transform: uppercase;
+                align: center;
+            }
+        }
+        hr{
+            width: 4em;
+            margin: 1.125em auto 0 auto;
+            padding: 0;
+            border: 2.5px solid $color1;
+        }
+    }
+    .main_pillars_content{
+        margin: 0;
+        padding: 0;
+        .main_content_card{
+            /*margin: 1em 0;*/
+            padding: 3em 2em;
+            min-height: 24em;
+            background:{
+                color: $color3;
+            }
+            box-shadow: 0 0 10px rgba(#333, .3);
+            -webkit-border-radius: .375em;
+            -moz-border-radius: .375em;
+            border-radius: .375em;
+            &:hover{
+                transform: scale(1.05);
+                -webkit-transition: ease-in .3s;
+                -moz-transition: ease-in .3s;
+                transition: ease-in .3s;
+            }
+            .main_pillars_content_card_image{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .main_pillars_content_card_content{
+                margin: 1em 0 0 0;
+                padding: 0;
+                .main_pillars_content_card_content_header{
+                    margin: 0 0 1.75em 0;
+                    padding: 0;
+                    h2{
+                        margin: 0;
+                        padding: 0;
+                        font:{
+                            style: normal;
+                            size: 1.75em;
+                            weight: $font-bold;
+                        }
+                        text:{
+                            align: center;
+                            transform: uppercase;
+                        }
+                        color: $color2;
+                    }
+                    hr{
+                        margin: 1.125em auto 0 auto;
+                        padding: 0;
+                        width: 5em;
+                        border: 2px solid $color1;
+                    }
+                }
+                .main_pillars_content_card_content_text{
+                    margin: 0;
+                    padding: 0;
+                    p{
+                        margin: 0;
+                        padding: 0;
+                        font:{
+                            style: normal;
+                            size: 1em;
+                            weight: $font-light;
+                        }
+                        text:{
+                            align: justify;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
