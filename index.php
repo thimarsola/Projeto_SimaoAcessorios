@@ -249,56 +249,6 @@
                             <div class="main_content_card_content">
                                 <!--HEADER-->
                                 <header class="main_content_card_content_header">
-                                    <h2>Portão</h2>
-                                    <hr>
-                                </header>
-                                <!--CONTENT-->
-                                <div class="main_content_card_content_text">
-                                    <p>Conheça um pouco mais sobre essa nossa linha de produtos</p>
-                                    <!--BUTTON ACTION-->
-                                    <a href="<?php echo esc_url(get_page_link(get_page_by_title('Portão'))); ?>"
-                                        class="btn btn-color1 btn-block">Saiba mais</a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <!--PRODUCT CARD-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <article class="main_content_card">
-                            <!--IMAGE-->
-                            <div class="main_content_card_image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/_cdn/img/vt-product.svg"
-                                    alt="Simão Acessórios" class="img-fluid">
-                            </div>
-                            <!--CONTENT CARD-->
-                            <div class="main_content_card_content">
-                                <!--HEADER-->
-                                <header class="main_content_card_content_header">
-                                    <h2>Contramarco</h2>
-                                    <hr>
-                                </header>
-                                <!--CONTENT-->
-                                <div class="main_content_card_content_text">
-                                    <p>Conheça um pouco mais sobre essa nossa linha de produtos</p>
-                                    <!--BUTTON ACTION-->
-                                    <a href="<?php echo esc_url(get_page_link(get_page_by_title('Contramarco'))); ?>"
-                                        class="btn btn-color1 btn-block">Saiba mais</a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <!--PRODUCT CARD-->
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <article class="main_content_card">
-                            <!--IMAGE-->
-                            <div class="main_content_card_image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/_cdn/img/vt-product.svg"
-                                    alt="Simão Acessórios" class="img-fluid">
-                            </div>
-                            <!--CONTENT CARD-->
-                            <div class="main_content_card_content">
-                                <!--HEADER-->
-                                <header class="main_content_card_content_header">
                                     <h2>Diversos</h2>
                                     <hr>
                                 </header>

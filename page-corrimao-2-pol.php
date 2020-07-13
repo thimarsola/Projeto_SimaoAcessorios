@@ -43,6 +43,9 @@
                                                     'terms' => 'corrimao-2-polegas'
                                                 ]
                                             ],
+                                            'orderby' => [
+                                                "meta_key" => 'Código'
+                                            ],
                                             'paged' => $paged,
                                         ];
                                     ?>

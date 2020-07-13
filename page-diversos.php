@@ -43,6 +43,9 @@
                                                     'terms' => 'diversos'
                                                 ]
                                             ],
+                                            'orderby' => [
+                                                "meta_key" => 'Código'
+                                            ],
                                             'paged' => $paged,
                                         ];
                                     ?>
